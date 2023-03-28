@@ -1,0 +1,169 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 100vh;
+  background: #606c88;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  background-color: #00000090;
+}
+
+.header-text {
+  color: rgb(248 250 252);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-task {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #00000090;
+}
+
+.add-task h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: rgb(248 250 252);
+}
+
+.successfully {
+  opacity: 0;
+  color: rgb(248 250 252);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.formInput {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.addBtn {
+  padding: 8px;
+  background: #606c88;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.tasks {
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #00000090;
+  border-radius: 10px;
+}
+
+.tasks h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: rgb(248 250 252);
+}
+.wrapper {
+  margin: 20px;
+}
+.task {
+  display: flex;
+  margin: 0.8rem;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-text {
+  color: rgb(248 250 252);
+  border: 3px solid;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.btn {
+  padding: 8;
+}
+.actionsBtn {
+  display: flex;
+  
+}
+.edit {
+  margin: 3px;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.delete {
+  margin: 3px;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.done {
+  margin: 3px;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+
+.task-process {
+  text-decoration: none;
+}
+
+/* <!-- HTML !-->
+<button class="button-11" role="button">Button 11</button> */
+
+/* CSS */
+.button-11, .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-11:focus, .btn:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
